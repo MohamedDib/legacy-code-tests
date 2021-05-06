@@ -29,9 +29,6 @@ public class UserTest {
     }
     @Test
     void testUserFriends(){
-        // initialize data
-
-
         // add u1 as a friend
         u1.addFriend(u2);
         // Fill expected results
@@ -44,9 +41,6 @@ public class UserTest {
 
     @Test
     void testUserTrips(){
-        // initialize data
-
-
         // Add trips to user u1
         u1.addTrip(t1);
         u1.addTrip(t2);
